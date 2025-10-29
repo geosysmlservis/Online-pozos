@@ -13,7 +13,7 @@ import vertexai.preview.generative_models as generative_models
 GCP_PROJECT = "extrac-datos-geosys-production"
 GCP_REGION = "us-central1"
 CLOUD_TASK_QUEUE = "online-pozos"
-WORKER_URL = ""
+WORKER_URL = "https://online-pozos-386277896892.us-central1.run.app/process_single"
 
 # Inicializar Vertex AI y logging
 init(project=GCP_PROJECT, location="us-central1")
