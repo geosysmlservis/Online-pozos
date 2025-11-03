@@ -1,7 +1,7 @@
 # cloudbuild.yaml
 substitutions:
   _REGION: us-central1
-  _AR_REPO: opt-repo
+  _AR_REPO: online-repo
   _IMAGE_NAME: online-pozos
   _SERVICE_NAME: online-pozos
   _RUNTIME_SA: data-extraction-prod@extrac-datos-geosys-production.iam.gserviceaccount.com
@@ -31,4 +31,5 @@ images:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+
 
