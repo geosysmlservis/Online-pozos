@@ -3,6 +3,7 @@ import time
 import json
 import logging
 import pandas as pd
+from datetime import datetime
 from flask import Flask, request, jsonify
 from google.cloud import storage, bigquery, tasks_v2
 from vertexai import init
